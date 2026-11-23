@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to secure your BT Smart Hub — Patchwell Security</title>
+  <meta name="description" content="A plain-English, step-by-step guide to securing a BT Smart Hub 2 for a small business: admin password, Wi-Fi password, WPS and more.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cpath d='M22 3 L38 9 V21 C38 31 31 38 22 41 C13 38 6 31 6 21 V9 Z' fill='%232f5d50'/%3E%3Cpath d='M15.5 21.5 L20 26 L29 16.5' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="index.html"><svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true">
+  <path d="M22 3 L38 9 V21 C38 31 31 38 22 41 C13 38 6 31 6 21 V9 Z" fill="#2f5d50"/>
+  <path d="M22 8 L33 12.2 V21 C33 28 28.5 33.2 22 35.6 C15.5 33.2 11 28 11 21 V12.2 Z" fill="none" stroke="#e3ece7" stroke-width="1.6" stroke-dasharray="3 2.4"/>
+  <path d="M15.5 21.5 L20 26 L29 16.5" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg><strong>Patchwell Security<span>Small business security, in plain English</span></strong></a>
+      <nav class="main" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="guides.html">Free guides</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="content">
+    <div class="wrap hero">
+      <p class="eyebrow">Free guide &middot; Routers</p>
+      <h1>How to secure your BT Smart Hub</h1>
+      <p class="lead">Six steps, about 20 minutes. No technical knowledge needed.</p>
+    </div>
+    <section>
+      <div class="wrap article">
+        <p class="meta">Written for the BT Smart Hub 2, the hub most BT broadband customers have. The BT Smart Hub 3 and EE Smart Hubs use very similar screens. Checked against BT's own help pages on 23 November 2026.</p>
+
+        <p>Your hub is the front door between your business and the internet. Every laptop, card reader, phone and printer goes through it. If someone gets into its settings, they can see or redirect everything that passes through. These steps lock that door.</p>
+
+        <div class="note"><strong>Before you start:</strong> do this on a laptop or computer that is connected to the hub, by Wi-Fi or cable. Changing the Wi-Fi password will disconnect every device, so pick a quiet time and have your devices to hand.</div>
+
+        <ol class="steps">
+          <li>
+            <h2>Find your hub's settings card</h2>
+            <p>Pull out the small card from the back of the hub. It shows three things:</p>
+            <ul>
+              <li><strong>Wi-Fi name</strong> (starts with BT-)</li>
+              <li><strong>Wi-Fi password</strong></li>
+              <li><strong>Admin password</strong> for the Hub Manager</li>
+            </ul>
+            <p>The Wi-Fi password and the admin password are <strong>different</strong>. The admin password is the one that unlocks the hub's settings.</p>
+          </li>
+
+          <li>
+            <h2>Open the Hub Manager</h2>
+            <p>Open your web browser and type <span class="path">192.168.1.254</span> into the address bar (not the search box), then press Enter. This opens the BT Hub Manager. It only works on a device connected to your hub.</p>
+            <p>You may see a security warning first. That is normal for this page because it comes from the hub itself, not a website.</p>
+          </li>
+
+          <li>
+            <h2>Change the admin password</h2>
+            <p>This is the most important step. Anyone who knows the admin password can change every setting on your hub.</p>
+            <p>The first time you open the Hub Manager, it asks you to change the password. If it doesn't, go to <span class="path">Advanced Settings</span> &rarr; <span class="path">System</span>, enter the password from the card, and choose <strong>Change admin password</strong>. Click <strong>Save</strong>.</p>
+            <p>A good password is <strong>three random words</strong> joined together, such as <em>TeapotCanyonViolet</em> (don't use that one). Store it in a password manager or somewhere safe and private.</p>
+            <p>You can also do this in the <strong>My BT app</strong>: <span class="path">Home Network</span> &rarr; <span class="path">Settings</span> &rarr; <span class="path">Hub settings</span> &rarr; <span class="path">Change admin password</span>.</p>
+          </li>
+
+          <li>
+            <h2>Change the Wi-Fi password</h2>
+            <p>The Wi-Fi password on the card is fine to start with, but it has been seen by everyone who has been near your hub: installers, staff, visitors. Changing it means only the people you choose can join.</p>
+            <p>Go to <span class="path">Advanced Settings</span> &rarr; <span class="path">Wireless</span>. Enter a new password (three random words again works well) and click <strong>Save</strong>. Then reconnect each of your devices with the new password.</p>
+            <p>You can change the Wi-Fi name here too. Avoid using your business name or address, so the network is harder to link to you.</p>
+          </li>
+
+          <li>
+            <h2>Turn off WPS if you don't use it</h2>
+            <p>WPS is the button on the hub that lets a device join without typing the password. It is handy, but anyone who can reach the hub, such as a visitor or customer, can use it to join your network.</p>
+            <p>If you don't use it, turn it off: <span class="path">Advanced Settings</span> &rarr; <span class="path">Wireless</span> &rarr; set <strong>WPS</strong> to off, then <strong>Save</strong>.</p>
+          </li>
+
+          <li>
+            <h2>Check the firewall and updates are on</h2>
+            <p>BT hubs have a firewall that is <strong>on by default</strong>. Leave it on, and don't change firewall or port settings unless a trusted supplier tells you exactly why.</p>
+            <p>BT installs hub updates automatically, which is why your hub sometimes restarts on its own. Let these happen; they include security fixes. If you still have an old BT Home Hub 3 or 4, ask BT about a newer hub, as older models have weaker Wi-Fi security.</p>
+          </li>
+        </ol>
+
+        <div class="checklist">
+          <h2>Your quick checklist</h2>
+          <ul>
+            <li>Admin password changed from the one on the card</li>
+            <li>Wi-Fi password changed, and all devices reconnected</li>
+            <li>Wi-Fi name doesn't include your business name or address</li>
+            <li>WPS turned off (if you don't use it)</li>
+            <li>Firewall left on</li>
+            <li>Settings card kept somewhere private, not on show to visitors</li>
+          </ul>
+        </div>
+
+        <h2>Forgotten your new admin password?</h2>
+        <p>On a Smart Hub 2, the fix is a factory reset: press the reset button on the back with a paper clip until the lights change. This puts every setting back to the card, so you will need to repeat this guide afterwards.</p>
+
+        <h2>Why this matters for Cyber Essentials</h2>
+        <p>Changing default passwords and using a working firewall are part of the basic controls in the UK's Cyber Essentials scheme. This guide covers those for your router. A full Cyber Essentials Readiness Kit is coming in early 2027; email <a href="mailto:patchwellsecurity@proton.me?subject=Notify%20me%20about%20the%20readiness%20kit">patchwellsecurity@proton.me</a> with "Notify me" to hear when it launches.</p>
+
+        <p class="sources"><strong>Sources:</strong> <a href="https://www.bt.com/help/broadband/fix-a-problem/log-in-issues/i-can-t-log-in-to-bt-hub-manager/how-can-i-set-up-or-change-the-admin-password-on-my-bt-hub-">BT: change the admin password on your BT Hub</a> &middot; <a href="https://www.bt.com/help/broadband/how-do-i-change-the-wi-fi-password-on-my-bt-hub">BT: change the Wi-Fi password</a> &middot; <a href="https://business.bt.com/help/article/changing-the-wireless-settings-on-smart-hub-2/">BT Business: wireless settings on Smart Hub 2</a> &middot; <a href="https://bt.com/help/user-guides/security-on-the-bt-hub">BT: security on the BT Hub</a>. Menu names can change when BT updates the hub. If a step looks different, email us and we will update this guide.</p>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site">
+    <div class="wrap">
+      <ul>
+        <li><a href="guides.html">Free guides</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="legal.html">Legal &amp; privacy</a></li>
+      </ul>
+      <p>Patchwell Security provides security guidance and preparation materials. It is not a Cyber Essentials certification body and does not issue certificates.</p>
+      <p>&copy; 2026 Patchwell Security</p>
+    </div>
+  </footer>
+</body>
+</html>
