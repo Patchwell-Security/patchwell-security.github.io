@@ -35,7 +35,7 @@
     </div>
     <section>
       <div class="wrap article">
-        <p class="meta">Written for the BT Smart Hub 2, the hub most BT broadband customers have. The BT Smart Hub 3 and EE Smart Hubs use very similar screens. Checked against BT's own help pages on 23 November 2026.</p>
+        <p class="meta">Written for the BT Smart Hub 2, the hub most BT broadband customers have. The BT Smart Hub 3 and EE Smart Hubs use very similar screens. Checked against BT's help pages and a real Smart Hub 2 on 23 November 2026.</p>
 
         <p>Your hub is the front door between your business and the internet. Every laptop, card reader, phone and printer goes through it. If someone gets into its settings, they can see or redirect everything that passes through. These steps lock that door.</p>
 
@@ -56,13 +56,13 @@
           <li>
             <h2>Open the Hub Manager</h2>
             <p>Open your web browser and type <span class="path">192.168.1.254</span> into the address bar (not the search box), then press Enter. This opens the BT Hub Manager. It only works on a device connected to your hub.</p>
-            <p>You may see a security warning first. That is normal for this page because it comes from the hub itself, not a website.</p>
+            <p>Newer hub software now opens a secure (https) version of this page. You may see a "Secure connection required" page, then a browser warning about the site's certificate. That is expected <strong>only for 192.168.1.254</strong>, because the page comes from the hub itself, not a website. Never accept a warning like this on any other site.</p>
           </li>
 
           <li>
             <h2>Change the admin password</h2>
             <p>This is the most important step. Anyone who knows the admin password can change every setting on your hub.</p>
-            <p>The first time you open the Hub Manager, it asks you to change the password. If it doesn't, go to <span class="path">Advanced Settings</span> &rarr; <span class="path">System</span>, enter the password from the card, and choose <strong>Change admin password</strong>. Click <strong>Save</strong>.</p>
+            <p>The first time you open the Hub Manager, it asks you to change the password. If it doesn't, go to <span class="path">Advanced settings</span> &rarr; <span class="path">System</span> &rarr; <span class="path">Admin password</span>, enter the password from the card, then your new one. Add a <strong>password hint</strong> that only you would understand, then click <strong>Save</strong>.</p>
             <p>A good password is <strong>three random words</strong> joined together, such as <em>TeapotCanyonViolet</em> (don't use that one). Store it in a password manager or somewhere safe and private.</p>
             <p>You can also do this in the <strong>My BT app</strong>: <span class="path">Home Network</span> &rarr; <span class="path">Settings</span> &rarr; <span class="path">Hub settings</span> &rarr; <span class="path">Change admin password</span>.</p>
           </li>
@@ -70,19 +70,19 @@
           <li>
             <h2>Change the Wi-Fi password</h2>
             <p>The Wi-Fi password on the card is fine to start with, but it has been seen by everyone who has been near your hub: installers, staff, visitors. Changing it means only the people you choose can join.</p>
-            <p>Go to <span class="path">Advanced Settings</span> &rarr; <span class="path">Wireless</span>. Enter a new password (three random words again works well) and click <strong>Save</strong>. Then reconnect each of your devices with the new password.</p>
+            <p>Go to <span class="path">Advanced settings</span> &rarr; <span class="path">Wireless</span>. Enter a new password (three random words again works well) and click <strong>Save</strong>. Then reconnect each of your devices with the new password.</p>
             <p>You can change the Wi-Fi name here too. Avoid using your business name or address, so the network is harder to link to you.</p>
           </li>
 
           <li>
             <h2>Turn off WPS if you don't use it</h2>
             <p>WPS is the button on the hub that lets a device join without typing the password. It is handy, but anyone who can reach the hub, such as a visitor or customer, can use it to join your network.</p>
-            <p>If you don't use it, turn it off: <span class="path">Advanced Settings</span> &rarr; <span class="path">Wireless</span> &rarr; set <strong>WPS</strong> to off, then <strong>Save</strong>.</p>
+            <p>If you don't use it, turn it off: <span class="path">Advanced settings</span> &rarr; <span class="path">Wireless</span> &rarr; set <strong>WPS</strong> to off, then <strong>Save</strong>.</p>
           </li>
 
           <li>
             <h2>Check the firewall and updates are on</h2>
-            <p>BT hubs have a firewall that is <strong>on by default</strong>. Leave it on, and don't change firewall or port settings unless a trusted supplier tells you exactly why.</p>
+            <p>BT hubs have a firewall that is <strong>on by default</strong>. You can see it under <span class="path">Advanced settings</span> &rarr; <span class="path">Firewall</span>. Leave it on, and don't change firewall or port settings unless a trusted supplier tells you exactly why.</p>
             <p>BT installs hub updates automatically, which is why your hub sometimes restarts on its own. Let these happen; they include security fixes. If you still have an old BT Home Hub 3 or 4, ask BT about a newer hub, as older models have weaker Wi-Fi security.</p>
           </li>
         </ol>
@@ -100,7 +100,12 @@
         </div>
 
         <h2>Forgotten your new admin password?</h2>
-        <p>On a Smart Hub 2, the fix is a factory reset: press the reset button on the back with a paper clip until the lights change. This puts every setting back to the card, so you will need to repeat this guide afterwards.</p>
+        <p>On the Hub Manager's login screen, the Smart Hub 2 offers three options:</p>
+        <ul>
+          <li><strong>Password hint:</strong> shows the hint you set in step 3.</li>
+          <li><strong>Password override:</strong> lets you set a new admin password <em>without</em> losing your other settings. Follow the on-screen steps.</li>
+          <li><strong>Factory reset:</strong> press the reset pinhole on the back of the hub for 3 seconds, then wait a few minutes until the hub light is blue. This puts every setting back to the card, so you will need to repeat this guide afterwards.</li>
+        </ul>
 
         <h2>Why this matters for Cyber Essentials</h2>
         <p>Changing default passwords and using a working firewall are part of the basic controls in the UK's Cyber Essentials scheme. This guide covers those for your router. A full Cyber Essentials Readiness Kit is coming in early 2027; email <a href="mailto:patchwellsecurity@proton.me?subject=Notify%20me%20about%20the%20readiness%20kit">patchwellsecurity@proton.me</a> with "Notify me" to hear when it launches.</p>
